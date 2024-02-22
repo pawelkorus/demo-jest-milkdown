@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "target/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "target": "es5",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "module": "es2020",
+        "importHelpers": true,
+        "downlevelIteration": true,
+        "lib": [
+            "es2019",
+            "dom"
+        ],
+        "jsx": "react"
+    },
+    "exclude": [
+        "node_modules",
+        "target",
+        "test"
+    ]
+}
