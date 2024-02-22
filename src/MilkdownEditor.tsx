@@ -1,8 +1,9 @@
 import React from 'react'
 import { Editor, rootCtx } from '@milkdown/core'
 import { Milkdown, useEditor } from '@milkdown/react'
+import { MilkdownProvider } from '@milkdown/react'
 
-export default function () {
+function MilkdownEditor() {
   useEditor(root =>
     Editor.make()
       .config((ctx) => {
@@ -11,4 +12,12 @@ export default function () {
   , [])
 
   return <Milkdown />
+}
+
+export default function() {
+  return (
+    <MilkdownProvider>
+      <MilkdownEditor />
+    </MilkdownProvider>
+  )
 }
