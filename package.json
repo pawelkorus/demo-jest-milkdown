@@ -24,10 +24,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@milkdown/core": "^7.3.3",
-    "@milkdown/ctx": "^7.3.3",
-    "@milkdown/prose": "^7.3.3",
-    "@milkdown/react": "^7.3.3",
+    "@milkdown/core": "7.3.3",
+    "@milkdown/ctx": "7.3.3",
+    "@milkdown/preset-commonmark": "7.3.5",
+    "@milkdown/prose": "7.3.3",
+    "@milkdown/react": "7.3.3",
     "react": "18.2.0"
   }
 }
